@@ -10,8 +10,16 @@ jobs:
       group: stable
     - name: __opal__
       language: __opal__
+      group: edge
+    - name: __opal__stable
+      language: __opal__
+      group: stable
     - name: __stevonnie__
       language: __stevonnie__
+      group: edge
+    - name: __stevonnie__stable
+      language: __stevonnie__
+      group: stable
 
 script:
 - uname -a
