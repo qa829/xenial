@@ -2,6 +2,9 @@ language: __sardonyx__
 
 jobs:
   include:
+    - name: __sardonyx__dev
+      language: __sardonyx__
+      group: dev
     - name: __sardonyx__
       language: __sardonyx__
       group: edge
