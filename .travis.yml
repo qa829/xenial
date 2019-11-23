@@ -2,6 +2,8 @@ language: __sardonyx__
 
 jobs:
   include:
+    - name: __sardonyx__
+      language: __sardonyx__
     - name: __opal__
       language: __opal__
     - name: __stevonnie__
@@ -12,4 +14,3 @@ script:
 - cat /etc/os-release
 - ruby -v
 - python -V
-- php -v
