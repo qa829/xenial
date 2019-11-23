@@ -1,0 +1,15 @@
+language: __sardonyx__
+
+jobs:
+  include:
+    - name: __opal__
+      language: __opal__
+    - name: __stevonnie__
+      language: __stevonnie__
+
+script:
+- uname -a
+- cat /etc/os-release
+- ruby -v
+- python -V
+- php -v
