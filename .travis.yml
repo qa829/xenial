@@ -4,7 +4,10 @@ jobs:
   include:
     - name: __sardonyx__
       language: __sardonyx__
-      group: dev
+      group: edge
+    - name: __sardonyx__stable
+      language: __sardonyx__
+      group: stable
     - name: __opal__
       language: __opal__
     - name: __stevonnie__
