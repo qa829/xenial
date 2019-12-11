@@ -23,7 +23,7 @@ jobs:
     - name: __stevonnie__stable
       language: __stevonnie__
       group: stable
-    - name: __sardonyx__stable
+    - name: __sardonyx__stable_java
       language: java
       #group: stable
 
@@ -32,3 +32,4 @@ script:
 - cat /etc/os-release
 - ruby -v
 - python -V
+- ls -hl /home/travis/.pyenv/*
