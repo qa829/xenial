@@ -32,4 +32,4 @@ script:
 - cat /etc/os-release
 - ruby -v
 - python -V
-- ls -hl /home/travis/.pyenv/*
+- ls -ahl /home/travis/*
